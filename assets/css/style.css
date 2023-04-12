@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+@font-face{
+    font-family: D-DIN-Bold;
+    src:url("/assets/fonts/d-din/D-DIN-Bold.otf");
+}
+body{
+    /* background-color: black; */
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+}
+.header1{
+    background-color: black;
+    width: 100%;
+    /* position: fixed;    */
+    display: flex;
+    align-items: center;
+    height:100px;
+    /* border: 1px solid red; */
+}
+svg{
+    width: 200px;
+    fill: white;
+    margin-left: 30px;
+    /* border:1px solid red;  */
+}
+.centre_nav ul{
+    display: flex;
+    margin-left: 0px;
+}
+.centre_nav ul li{
+    /* border:1px solid red; */
+    list-style-type: none;
+    align-items: center;
+    margin-right: 5px;
+    
+}
+.centre_nav ul li a{
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+}
+.right_nav{
+    /* margin-right: 0px; */
+    margin-left: 50px;
+    display: flex;
+    /* border:1px solid red; */
+    /* width:5%; */
+}
+.right_nav a{
+    margin-top: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+}
+.right_nav button{
+    padding: 5px;
+    margin-left: 20px;
+    /* border:1px solid red; */
+    }
+.container1{
+    width:100%;
+    height: 3000px;
+    /* border:5px solid rgb(81, 24, 134);  */
+}
+ .row1{
+/* margin-top: 90px; */
+width: 100%;
+height: 600px;
+position: relative;
+/* border: 1px solid red; */
+}
+.row1 .contents{
+    margin-top: 250px; 
+    height: 250px;
+    width:35%;
+    margin-left: 50px;
+    position: absolute;
+}
+.row1 .contents h4{
+  margin-top: 20px;
+font-size: 20px; 
+
+color: white;
+}
+.row1 .contents h2{
+    padding: 18px 45p;
+     /* margin-top: 50px; */
+    font-size: 48px;
+    color: white;
+}
+.row1 .contents button{
+    margin-top: 30px;
+    padding: 18px 45px;
+    /* background-color: black; */
+}
+.footer1{
+    height: 100px;
+    width:100%;
+    background-color: black;
+  
+    /* border: 3px solid rgb(207, 21, 30);   */
+
+}  
+.footer1 ul{
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 250px;
+    /* text-align: center; */
+}
+.footer1 ul li{
+    padding: 20px;
+   
+}
+.footer1 ul li a{
+    font-family: Arial,Verdana,sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+.footer1 ul li p{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: lighter;
+    font-family: Arial,Verdana,sans-serif;
+}
